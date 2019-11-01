@@ -14,5 +14,6 @@ class ScaleAniActivity : AppCompatActivity() {
         setContentView(R.layout.activity_scale_ani)
         scaleAnin=AnimationUtils.loadAnimation(this,R.anim.scale)
         tvScale.animation=scaleAnin
+
     }
 }
