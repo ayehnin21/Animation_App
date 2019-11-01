@@ -1,11 +1,9 @@
 package com.coder.mm.annimationproject
 
-import android.app.Activity
-import android.content.Intent
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.animation.Animation
-import android.view.animation.AnimationUtils
+import com.coder.mm.annimationproject.helper.H.goActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -16,15 +14,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnGoToBounceAni.setOnClickListener {
-           goActivity(BounceActivity())
+           goActivity(this@MainActivity,BounceActivity())
         }
         btnGoToScale.setOnClickListener {
-            goActivity(ScaleAniActivity())
+            goActivity(this@MainActivity,ScaleAniActivity())
+        }
+        btngoAnimations.setOnClickListener {
+            goActivity(this@MainActivity,Animations())
         }
     }
 
 
-    private fun goActivity(act: Activity){
-        startActivity(Intent(this, act::class.java))
-    }
+
 }

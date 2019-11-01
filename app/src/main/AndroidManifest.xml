@@ -9,7 +9,50 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ScaleAniActivity"></activity>
+        <activity android:name=".ZooOutAni">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animations" />
+        </activity>
+        <activity android:name=".ZoomInActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animations" />
+        </activity>
+        <activity android:name=".SlideDownAni">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animations" />
+        </activity>
+        <activity android:name=".SlideUpAni">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animations" />
+        </activity>
+        <activity android:name=".RotateAni">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animations" />
+        </activity>
+        <activity android:name=".FadeOutAni">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animations" />
+        </activity>
+        <activity android:name=".FadeInAni">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animations" />
+        </activity>
+        <activity android:name=".BounceAni">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Animations" />
+        </activity>
+        <activity android:name=".Animations" />
+
+
+        <activity android:name=".ScaleAniActivity" />
         <activity android:name=".BounceActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
