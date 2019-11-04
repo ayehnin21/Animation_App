@@ -8,8 +8,7 @@
 
     <ImageView
         android:id="@+id/imgSlideUPAni"
-        android:layout_width="124dp"
-        android:layout_height="108dp"
+        style="@style/img_style"
         android:layout_marginTop="68dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"

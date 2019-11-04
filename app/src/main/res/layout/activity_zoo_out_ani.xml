@@ -8,8 +8,7 @@
 
     <ImageView
         android:id="@+id/imgZoomOut"
-        android:layout_width="164dp"
-        android:layout_height="153dp"
+        style="@style/img_style"
         android:layout_marginTop="88dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"

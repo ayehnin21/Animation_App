@@ -8,8 +8,7 @@
 
     <TextView
         android:id="@+id/tvScale"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/img_style"
         android:fontFamily="@font/aldrich"
         android:text="Dream Do Come True"
         android:textSize="30sp"

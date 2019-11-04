@@ -8,12 +8,11 @@
 
     <ImageView
         android:id="@+id/imgBAni"
-        android:layout_width="169dp"
-        android:layout_height="137dp"
+        style="@style/img_style"
         android:layout_marginTop="60dp"
+        android:src="@drawable/ic_person"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_person" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
